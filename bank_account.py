@@ -10,7 +10,7 @@ class BankAccount:
 account = BankAccount("123456", "John", 1000, 1234)
 
 # Anyone can directly change the data
-account.balance = 999999
+account.balance = 0
 account.pin = 0000
 
 print(account.balance)
